@@ -1,0 +1,19 @@
+body {
+	background-color:#ffffff;
+}
+
+#wrapper {
+	width:1000px;
+	margin:auto;
+}
+
+#wide {
+	width:100%;
+	margin:auto;
+}
+
+img {
+	display:inline-block;
+	float:left;
+	margin:4px;
+}
