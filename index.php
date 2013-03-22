@@ -6,6 +6,9 @@
 			$size = $_GET['resize'];
 			if($size == false){
 				$size = "none";
+ 				?>
+ 				<META HTTP-EQUIV="Refresh" Content="0; URL=index.php?resize=none">
+ 				<?php
 			}
 			$postURL = "index.php?resize=".$size;
 			$refresh = 10; 
